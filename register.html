@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>Register - Care4widow</title>
+<meta name="viewport" content="width=device-width, scale=1.0">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <!-- jQuery library-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/npm.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+<style>
+*{margin: 0; padding: 0;}
+@media only screen and (min-width:1000px){
+	#mainNavBar{float: right;}
+	
+}	
+.navbar{border-radius: none;}
+.nav-item:hover{background: tomato; opacity: 0.4;}
+.container-fluid li{color: ivory;}
+.lastchild{background: tomato;}
+.widowshow{background: silver; height:; width: 100%; margin: 10px 0px;}
+
+
+
+</style>
+</head>
+
+<body> <br/> <br/>
+<!------MY TOP MENU START HERE----->
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#mainNavBar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand"><img src="image/widow-logo.png" height="33px" width="33px" style="float:left; margin-top:-4px;  border-radius:50%; opacity:1;"/> &nbsp; Care4widow</a>
+			
+		</div>
+			<!----My menu list start------->
+			<div class="collapse navbar-collapse"  id="mainNavBar">
+				<ul class="nav navbar-nav">
+					<li class="active nav-item"><a href="index.html">Home</a></li>
+					<li class="nav-item"><a href="?" class="nav-item nav-link">About<i class="fas fa-user-circle" style="font-size:15px;"></i></a></li>
+					<li class="nav-item" title="Book appointment with a doctor or lawyer" onclick="myalert()"><a href="?" title="Book appointment with a doctor or lawyer">Doctors Appointment<i class="fas fa-clinic-medical" style="font-size:15px;"></i></a></li>
+					<li class="nav-item"><a href="?">Social Event <i class="fas fa-birthday-cake" style="font-size:15px;"></i></a></li>
+					<li class="nav-item" style="background:maroon;"><a href="login.html">Login <i class="fas fa-lock" style="font-size:15px;"></i></a></li>
+				</ul>
+			</div>
+
+	</div>
+</nav>
+
+<script>
+function myalert(){
+alert('You have to login!');
+}
+</script>
+<!------- End of Nav menu---->
+
+
+<h2 align="center">You can have access to alot when you <a href="#">register </a></h2>
+<div class="widowshow2"> 
+	<br/>
+	
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-4">
+			<img src="image/ngo3.jpeg" height="250px" width="100%" style="float:left; margin:4px;"/>
+			<h3> Want to talk your problem? connect to <code>NGO</code></h3>
+			<p> NGO is a non-profit organization that operates independently of any government, typically one whose purpose is to address a social or political issue.</p>
+		</div>
+		<div class="col-lg-4">
+			<img src="image/law.jpg" height="250px" width="100%" style="float:left; margin:4px;"/>
+			<h4>Are you a widowed or widower?</h4>
+			<p> Have you lost your property of your spouse illegally? <br/> register and sign-in and talk to a lawyer or human right activist.</p>
+		</div>
+		<div class="col-lg-4"> 
+			<center><h4 style="color:maroon; opacity:0.8; font-weight: bold;">Register here to be a benefactor</h4> <br/>
+			<form action="login.html">
+				<label>Name:</label> <br/><input type="text" placeholder=" Adeola Martins" maxlength="30" title="WHat is your name?" required/> <br/>
+				<label>Email:</label> <br/><input type="email" placeholder=" sea2020@gmail.com" maxlength="30" title="example@gmail.com" required/> <br/>
+				<label>Password:</label> <br/><input type="password" maxlength="10" title="password must not be more than 10 character" placeholder=" Create a password"/> <br/>
+				<label>state:</label> 	<br/><select style="width:40%;">
+												<option value=""/>Select state</option>
+												<option value="Abia"/>Abia</option>
+												<option value="Adamawa"/>Adamawa</option>
+												<option value="Akwa Ibom"/>Akwa Ibom</option>
+												<option value="Abia"/>Abia</option>
+												<option value="Abia"/>Abia</option>
+										</select>
+			<br/>
+
+			<br/>
+				<input type="submit" value="submit" style="outline:none; width:30%; height:30px; background:maroon; color:ivory; font-weight:bold; border-radius:5px 5px 5px 5px; border:none;"/>
+
+
+
+			</form> </center>
+		</div>
+		
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!--------MY HIDDEN DIV #chat-------START------------------>
+
+<div draggable="true" id="chat" style=""> 
+	<script>
+		$('#chat').draggable();
+	</script>
+					<div id="majorchat">
+						&nbsp; <input type="radio" style="background:green; color:green;" checked> Dr. Yusuf Olanipekun
+						  <code  id="chatcancel" onclick="chatcancel()" title="End chat" style="cursor:pointer; float: right; margin-right:5px; margin-top: 3px; ">X</code>
+					</div>
+
+				
+		<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>  <br/> <br/> 
+		<input type="text" value="Hello Doctor" style="background:tomato; margin-bottom: 10px; outline:none; border-radius:7px 7px 7px 7px; border:none; text-align:center; width:30%; margin-left:65%; color:ivory; " readonly/>			
+	<div id="send">
+		<form action="#">
+			<input type="text" placeholder="Write ...." style="outline: none;"/> <i class="fa fa-microphone" aria-hidden="true" style="font-size:15px;"></i>
+			<input type="submit" value="send"/>
+		</form>
+	</div>
+</div>
+
+<!--------MY HIDDEN DIV #chat-------END------------------>
+
+
+
+
+
+
+
+
+
+
+<!------FOOTER NAV START-------->
+<br/>
+<nav class="navbar navbar-inverse navbar-fixed-bottom" >
+
+	<center><a style="color:ivory; font-size: 15px;">&copy;2021 care4widow</a></center>
+	
+	<div class="container container-fluid">
+		<div class="row">
+		<div class="col-sm-4">
+			<ul style="list-style-type: none;">
+				<li style="font-weight: bold;">Goal</li>
+				<li style="font-weight: lighter; opacity:0.7;">The main goal of this study is to design an application that can provide medical and social service support for the widow.</li>
+				<li style="color:ivory; font-size:25px;"><i class="fab fa-facebook-square" aria-hidden=""></i> <i class="fab fa-twitter" aria-hidden="true"></i> <i class="fab fa-whatsapp" aria-hidden="true"></i></li>
+			</ul>
+		</div>
+		<div class="col-sm-4">
+			<ul style="list-style-type: none;">
+				<li> Contact Us</li>
+				<li> <i class="fas fa-phone-square" style="font-size:15px; "> </i>&nbsp; care4widow@consultant.com</li>
+				<li> <i class="fas fa-phone" style="font-size:15px; "> </i> &nbsp; 2349023859472</li>
+				<li>  <br/>University Ibadan</li>
+			</ul>
+		</div>
+		<div class="col-sm-4" > &nbsp; 
+			<i class="fas fa-search" style="font-size:35px;  float: right; cursor: pointer; outline:none; color:ivory; margin-left: 5px; "></i>
+			<img src="image/help.PNG" height="40" width="40px" style="float: right; cursor: pointer;" title="Get help" /> &nbsp;
+		</div>
+		
+		</div>
+	</div>
+	
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

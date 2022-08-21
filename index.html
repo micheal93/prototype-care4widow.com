@@ -1,0 +1,363 @@
+<html>
+<head>
+<title>Home- Care4widow</title>
+
+<meta name="viewport" content="width=device-width, scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <!-- jQuery library-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/npm.js"></script>
+
+
+<!------FOR OWL CAROUSEL SLIDDER------->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"/>
+
+<style>
+*{margin: 0; padding: 0;}	
+@media only screen and (min-width:1000px){
+	#mainNavBar{float: right;}
+	body{backgroud: red;}
+}
+
+
+.navbar{border-radius: none;}
+.nav-item:hover{background: maroon; color:ivory;}
+.nav-link{font-color:ivory;}
+.nav-item a:hover{background: maroon; color:ivory;}
+.nav-item:hover{background: black; opacity: 0.5; color:ivory;}
+.container-fluid li{color: ivory;}
+.lastchild{background: tomato;}
+.widowshow{background: silver; height:; width: 100%; margin: 10px 0px;}
+#widowshowfooter{background:; height:; width: 100%; margin:; border-top:1px solid darkGrey;}
+
+/***Slider style start here****
+
+html,body{
+	display:grid;
+	height: 100%;
+	place-items:center;
+	text-align: center;
+	background: #f2f2f2;
+} */
+.content .btn{background:tomato; color:ivory;}
+.slider{
+max-width: 1150px;
+display: flex; margin-top: 65px; align: center
+;
+}
+
+.slider .card{
+background: #fff;
+flex: ;
+margin: 0 10px; width: 90%;
+}
+
+
+.slider .card .img img{
+	height: 200px;
+	width:100%;
+	object-fit: cover;
+	
+} 
+
+.slider .card .content{
+	padding: 10px 20px;
+	
+}
+
+.card .content .sub-title{
+	font-size: 25px;
+	font-weight: 600;
+	color:/**#e74c3c*/ maroon;
+	line-height: 20px; opacity: 0.7;
+}
+
+.card .content p{
+	text-align: justify;
+	margin: 10px 0;
+}
+
+.card .content .btn{
+	display: block;
+	text-align: left;
+	margin: 10px 0;
+	background: maroon;
+}
+
+.card .content .btn button{
+	background:maroon;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-size: 17px;
+	padding: 5px 8px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.card .content .btn button{
+transform: scale(0.9);
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand"><img src="image/widow-logo.png" height="33px" width="33px" style="float:left; margin-top:-4px;  border-radius:50%; opacity:1;"/> &nbsp; Care4widow</a>
+			
+		</div>
+
+			<!----My menu list start------->
+			<div class="collapse navbar-collapse" id="mainNavBar">
+				<ul class="nav navbar-nav">
+					<li class="active nav-item"><a href="?" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About<i class="fas fa-user-circle" style="font-size:15px;"></i></a></li>
+					<li class="nav-item"><a href="?" class="nav-link">Contact <i class="fas fa-phone-square" style="font-size:15px; "></i></a></li>
+					<li class="nav-item" title="Book appointment with a doctor or lawyer"><a href="?" title="Book appointment with a doctor or lawyer" class="nav-link">Doctors Appointment <i class="fas fa-clinic-medical" style="font-size:15px;"></i></a></li>
+					<li class="nav-item"><a href="?" class="nav-link">Social Event <i class="fas fa-birthday-cake" style="font-size:15px;">
+					</i></a></li>
+					<li class="nav-item"><a href="emergency.html" class="nav-link">Emergency <i class="fas fa-ambulance" style="font-size:15px; color:red;"></i></a></li>
+
+					<li class="nav-item" style="background:#c03f65;"><a href="register,html" class="nav-link">Register <i class="fas fa-users-medical" style="font-size:15px;"></i></a> </li>
+
+					<li class="nav-item" style="background:maroon;"><a href="login.html" class="nav-link">Login <i class="fas fa-lock" style="font-size:15px;"></i></a></li>
+					<li class="nav-item" style="background:;"> &nbsp;  <br/>&nbsp; <i class="fas fa-search" style="font-size:25px; cursor: pointer; outline:none; "></i></li>
+				</ul>
+			</div>
+
+	</div>
+</nav>
+<!------- End of Nav menu---->
+
+
+
+<!----- My slider start------->
+<center>
+<div class="slider owl-carousel">
+
+<div class="card">
+<div class="img"><img src="image/step.jpg"/></div>
+<div class="content">
+<div class="title"><b> How to Beat Boredom </b></div>
+<div class="sub-title">16 Effective Strategies</div>
+<p>Are you feeling bored? Don’t know what to do with your time? Can’t seem to find anything interesting to do? If so, you might be burning to do something, but nothing seems interesting or entertaining. Everyone knows this annoying state of being. We’ve all been there. Boredom feels like being stuck between wanting to do something and not being able to find something compelling to do.</p>
+<button class="btn">Read more</button>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="image/health.jpg"/></div>
+<div class="content">
+<div class="title"> <b>Nutrition</b></div>
+<div class="sub-title"> Real food nutrition</div>
+<p>Older adults need more vitamin D and calcium than younger adults to help maintain strong and healthy bones. Calcium-rich foods include low-fat and fat-free dairy products, like milk and yogurt, as well as fortified foods and beverages, such as some cereals, non-dairy milks and 100% fruit juices.</p>
+<button class="btn">Read more</button>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="image/diabetes.jpg"/></div>
+<div class="content">
+<div class="title"> <b> Disbetes</b></div>
+<div class="sub-title">How to controll diabetes</div>
+<p>Often, there are no symptoms. When symptoms do occur, they include excessive thirst or urination, fatigue, weight loss or blurred vision, symptoms also include increased thirst, frequent urination, hunger,.. it can be manages by Controlling blood sugar through diet, oral medication or insulin is the main treatment. Regular screening for complications is also required.</p>
+<button class="btn">Read more</button>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="image/law.jpg"/></div>
+<div class="content">
+<div class="title"> <b>Humaright</b></div>
+<div class="sub-title">Been dealt with illegaly?</div>
+<p>Human rights are rights inherent to all human beings, regardless of race, sex, nationality, ethnicity, language, religion, or any other status. Human rights include the right to life and liberty, freedom from slavery and torture, freedom of opinion and expression, the right to work and education</p>
+<button class="btn">Read more</button>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="image/ngo3.jpeg"/></div>
+<div class="content">
+<div class="title"> <b>Need food or financial help?</b></div>
+<div class="sub-title">Contact NGO today</div>
+<p><b>Widows Empowernment:</b> The Loomba Foundation, a UN accredited global NGO, aims to promote the welfare and economic empowerment of disadvantaged widows and education of their children. We also promote the fundamental freedoms and human rights of widows and their children around the world through advocacy.</p>
+<button class="btn">Read more</button>
+</div>
+</div>
+
+
+
+</div>
+
+
+<script>
+$(".slider").owlCarousel({
+	loop: true,
+	autoplay: true,
+	autoplayTimeout: 2000,
+	autoplayHoverPause: true,
+
+});
+</script>
+</center>
+<!----END OF SLIDER ----------->
+
+<div class="widowshow"> 
+	<br/>
+	
+	<div class="container">
+		<div class="row">
+		<div class="col-sm-4">
+			<img src="image/widow-logo.png" height="250px" width="100%" style="float:left; margin:4px;"/>
+			<h3>How an old woman survive Covid-19</h3>
+			<p> Did you know, Covid-19 is real?</p>
+		</div>
+		<div class="col-sm-4">
+			<img src="image/widow-logo.png" height="250px" width="100%" style="float:left; margin:4px;"/>
+			<h3>How an old woman survive Covid-19</h3>
+			<p> Did you know, Covid-19 is real?</p>
+		</div>
+		<div class="col-sm-4">
+			<img src="image/widow-logo.png" height="250px" width="100%" style="float:left; margin:4px;"/>
+			<h3>How an old woman survive Covid-19</h3>
+			<p> Did you know, Covid-19 is real?</p>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="widowshow2"> 
+	<br/>
+	
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-6">
+			<img src="image/widow-logo.png" height="250px" width="100%" style="float:left; margin:4px;"/>
+			<h3>How an old woman survive Covid-19</h3>
+			<p> Did you know, Covid-19 is real?</p>
+		</div>
+		<div class="col-lg-6">
+			<img src="image/widow-logo.png" height="250px" width="100%" style="float:left; margin:4px;"/>
+			<h3>How an old woman survive Covid-19</h3>
+			<p> Did you know, Covid-19 is real?</p>
+		</div>
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<br/> <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------FOOTER NAV START-------->
+<div id="widowshowfooter"> 
+<br/>
+	<div class="container container-fluid">
+		<div class="row">
+		<div class="col-sm-2">
+		<ul style="color:grey;">
+			<li style="color:grey; text-decoration:none; list-style-type:;" > <a href="doc-appoint.html">Book doctors appointment</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="lawyer.html">Talk to a lawyer</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="dashboard.html">Access my health record</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="ngo.html">NGO</a></li>
+		</ul>
+		</div>
+		<div class="col-sm-2">
+			<ul style="color:grey;">
+			<li style="color:grey; text-decoration:none; list-style-type:;" > <a href="doc-appoint.html">About us</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="lawyer.html">Contact</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="dashboard.html">Social event</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="ngo.html">Emergency</a></li>
+		</ul>
+		</div>
+		<div class="col-sm-2">
+			<ul style="color:grey;">
+			<li style="color:grey; text-decoration:none; list-style-type:;" > <a href="doc-appoint.html">About us</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="lawyer.html">Contact</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="dashboard.html">Social event</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="ngo.html">Emergency</a></li>
+		</ul>
+		</div>
+		<div class="col-sm-2">
+			<ul style="color:grey;">
+			<li style="color:grey; text-decoration:none; list-style-type:;" > <a href="doc-appoint.html">About us</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="lawyer.html">Contact</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="dashboard.html">Social event</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="ngo.html">Emergency</a></li>
+		</ul>
+		</div>
+		<div class="col-sm-2">
+			<ul style="color:grey;">
+			<li style="color:grey; text-decoration:none; list-style-type:;" > <a href="doc-appoint.html">About us</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="lawyer.html">Contact</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="dashboard.html">Social event</a></li>
+			<li style="color:grey; text-decoration:underline;"><a href="ngo.html">Emergency</a></li>
+		</ul>
+		</div>
+		<div class="col-sm-2">
+			
+			<ul style="margin-top:0px; margin-left:;">
+			<li style="color:dimGrey; font-size:30px; list-style-type:none;"> <i class="fab fa-facebook-square" aria-hidden=""></i> <i class="fab fa-twitter" aria-hidden="true"></i>  <i class="fab fa-whatsapp" aria-hidden="true"></i></li>
+			</ul>
+			<ul style="margin-top:0px; margin-left:;">
+			<li style="color:dimGrey; font-size:30px; list-style-type:none;"> <i class="fab fa-instagram" aria-hidden=""></i> <i class="fab fa-google-plus-g" aria-hidden="true"></i>  <i class="fab fa-whatsapp" aria-hidden="true"></i></li>
+			</ul>
+		</div>
+		
+		</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
